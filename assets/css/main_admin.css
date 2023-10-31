@@ -466,7 +466,15 @@ h1 {
 .add_classRoom_button{
     position: absolute;
     right: 5%;
-    bottom: 20%;
+    bottom: 17%;
+    padding: 10px 15px;
+    background-color: #00c4cc;
+    border-radius: 10px;
+}
+.excel_classRoom_button {
+    position: absolute;
+    right: 15%;
+    bottom: 17%;
     padding: 10px 15px;
     background-color: #00c4cc;
     border-radius: 10px;
@@ -564,10 +572,16 @@ td .classRoom_delete_button{
     right: 3%;
     bottom: 20%;
 }
-#add__class--button{
+#add__class--button, #add__excel--button{
     padding: 10px 15px;
     background-color: #00c4cc;
     border-radius: 10px;
+}
+
+.add__excel--button {
+    position: absolute;
+    right: 12%;
+    bottom: 20%;
 }
 .add__class--confirm{
     padding: 10px 15px;
@@ -619,9 +633,9 @@ td .classRoom_delete_button{
     flex-direction: column;
 }
 
-.schedule__title {
-    /* width: 26%; */
-}
+/* .schedule__title {
+    width: 26%;
+} */
 
 .schedule__title h1 {
     border-bottom: 3px solid #33B5E5;
